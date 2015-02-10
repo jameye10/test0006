@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="angular.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+ <body ng-app="tutorialApp" ng-controller="tutorialController as tutorialApp">
+    <!--  Store Header  -->
+    <header>
+      <h1 class="text-center">Assignment 6</h1>
+    </header>
+	
+	<div class="list-group-item" ng-repeat="thing in tutorialApp.things">{{ tutorial.things }}</div>
+	
+  </body>
+</html>
+
